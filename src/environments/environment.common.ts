@@ -1,4 +1,4 @@
-const issuerEndpoint = "https://cm-keycloak.cloud.iai.kit.edu/realms/BestRentalApp";
+const issuerEndpoint = "https://keycloak-instance.de/realms/myRealm";
 export const commonEnv = {
   oidc: {
     issuer_endpoint: issuerEndpoint,
@@ -9,7 +9,7 @@ export const commonEnv = {
 
     user_self_management_endpoint: issuerEndpoint + "/account",
 
-    client_id: "best-rental-app-oc-v1.2",
+    client_id: "my-client-id",
 
     scope: "openid profile email",
   },
