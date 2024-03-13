@@ -1,4 +1,19 @@
-# UiBestrental
+# Angular OAuth & AuthGuard example repo
+
+![Alt Text](figures/screen.gif)
+
+
+
+This repo contains an example of how to use OAuth and AuthGuard in an Angular application. The example uses the [OAuth 2.0 Authorization Code Grant](https://oauth.net/2/grant-types/authorization-code/) flow and Keycloak as an OIDC provider. The provider can be changed to any other OIDC provider by adopting the env variables.
+
+## Documentation
+
+[Sequence Diagrams on PageInitV1.1](pages/sequence_diagrams_page_init_v1.1.md)
+
+[Sequence Diagrams LoginV1.1](pages/sequence_diagrams_login_v1.1.md)
+
+[State Diagram SessionAndTokenHandlingV1.1](pages/state_diagram_session_and_token_handling_v1.1.md)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
