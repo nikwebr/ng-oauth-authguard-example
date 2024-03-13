@@ -1,0 +1,8 @@
+<div class="dropdown">
+  <button class="dropdown-button">Hello, {{ userProfile?.given_name }}</button>
+  <div class="dropdown-content">
+    <span (click)="onAccountButtonClick()">Account</span>
+    <span (click)="onLogoutButtonClick()">Logout</span>
+  </div>
+</div>
+

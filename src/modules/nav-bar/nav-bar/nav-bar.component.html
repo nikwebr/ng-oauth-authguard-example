@@ -1,0 +1,13 @@
+<div *ngIf="isLoggedIn == true" class="nav-bar-container">
+  <div class="left">
+    <a class="home-page-link" routerLink="/">
+      <div class="logo">
+        <img src="../../../assets/logo.png" alt="icon"/>
+        <span>Angular OAuth and AuthGuard example</span>
+      </div>
+    </a>
+  </div>
+  <div class="right">
+    <app-account-button [authNService]="authNService"/>
+  </div>
+</div>

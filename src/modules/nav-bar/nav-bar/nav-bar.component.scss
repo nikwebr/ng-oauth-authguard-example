@@ -1,0 +1,79 @@
+.nav-bar-container {
+  font-family: 'IstokWeb-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+
+  border-bottom: 1px solid lightgray;
+
+  // Align items in a row. Center vertically. Align with max space between
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  // Left container
+  .left {
+
+    // Align vertif
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .home-page-link {
+      text-decoration: none;
+      color: black;
+
+      padding: 5px;
+      border-radius: 10px;
+
+      &:hover {
+        background: #c0c0c0;
+      }
+
+      .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+        img {
+          width: 40px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  // Right container
+  .right {
+
+    // Align vertically center. Align horizontal to thr right
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    > * {
+      margin: 0 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      margin: 0 5px;
+      margin-left: 20px;
+
+      &:hover {
+        border-bottom: 2px solid black;
+        cursor: pointer;
+      }
+    }
+  }
+}
