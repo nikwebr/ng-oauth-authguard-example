@@ -1,6 +1,6 @@
 # State Diagram SessionAndTokenHandlingV1.1
 
-![](figures/std_session_and_token_handling_v1.1.png)
+![](../figures/std_session_and_token_handling_v1.1.png)
 
 The state diagram SessionAndTokenHandlingV1.1 models the changes of the values of the session variables isLoggedIn, userProfile in the AuthNModule and the access token and refresh token in the local storage in the transition to the different stages.
 

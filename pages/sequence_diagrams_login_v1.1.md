@@ -3,7 +3,7 @@ An unauthenticated user can either log in on the login page or use the AccountBu
 differ in post handling.
 
 ## Sequence Diagram LoginV1.1
-![](figures/sed_login_v1.1.png)
+![](../figures/sed_login_v1.1.png)
 (login) Manual login process triggered by Alice
 
 (\<<Actor\>> Alice) triggers a manual login using "AccountButtonComponent". The component calls a respective method on AuthNService which in turn calls a respective method on the OIDC library "angular-oauth2-oidc.OAuthService".  
@@ -25,7 +25,7 @@ differ in post handling.
 
 
 ## Sequence Diagram LoginPageV1.1
-![](figures/sed_login_page_v1.1.png)
+![](../figures/sed_login_page_v1.1.png)
 (login) Manual login process triggered by Alice
 
 (\<<Actor\>> Alice) triggers a manual login using "LoginPageComponent". 

@@ -4,7 +4,7 @@ The authentication flow with Keycloak involves two protocols: OAuth and OpenID C
 The first sequence diagram depicts the initialization of (\<<Service\>> AuthGuardService), the second shows the initialization of (\<<Component\>> AccountButtonComponent).
 
 ## Sequence Diagram AuthGuardV1.1
-![](figures/sed_auth_guard_v1.1.png)
+![](../figures/sed_auth_guard_v1.1.png)
 
 (\<<Component\>> AppRoutingModule) checks whether a route is allowed by evaluating a per route specified "canActivate" method
 
@@ -13,7 +13,7 @@ The first sequence diagram depicts the initialization of (\<<Service\>> AuthGuar
 (\<<Service\>> AuthNService) Might not be initialized on route check => getLoginStatus() waits for AuthNService to complete its initialization
 
 ## Sequence Diagram AccountButtonV1.1
-![](figures/sed_account_button_init_v1.1.png)
+![](../figures/sed_account_button_init_v1.1.png)
 
 (\<<Service\>> AuthNService) Method "checkSession()" checks on page load whether an OAuth access and OAuth refresh token exists. If so, the method tries to refresh the access token. If this fails or such tokens do not exist, the user stays unauthenticated.
 
